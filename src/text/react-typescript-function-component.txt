@@ -1,0 +1,11 @@
+interface Props {
+
+}
+
+const {fileName}: React.FC<Props> = () => {
+  return (
+    <div>{fileName}</div>
+  )
+}
+
+export default {fileName}

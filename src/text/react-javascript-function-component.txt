@@ -1,0 +1,7 @@
+const {fileName} = () => {
+  return (
+    <div>{fileName}</div>
+  )
+}
+
+export default {fileName}
